@@ -28,7 +28,7 @@
                     <form action="/dashboard/categories/{{ $category->slug }}" method="post" class="d-inline">
                         @method('delete')
                         @csrf
-                        <button onclick="return confirm('Are you sure to delete this post?')" class="badge bg-danger border-0"><span data-feather="trash-2"></span></button>
+                        <button onclick="return confirm('Are you sure to delete this category?')" class="badge bg-danger border-0"><span data-feather="trash-2"></span></button>
                     </form>
                 </td>
             </tr>
